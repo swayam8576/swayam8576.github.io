@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+           
+            margin: 250px;
+            padding-left: 250px; 
+
+        }
+        .set{
+            width: 300px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <table>
+                <tr>
+                    <td><label for="Name">Full Name:</label></td>
+                    <td><input type="text" class="set"  id="Name" name="Name"></td>
+                </tr>
+                <tr>
+                  <td><label for="Name">User Name:</label></td>
+                  <td><input type="text" class="set" id="Name" name="Name"></td>
+              </tr>
+                <tr>
+                    <td><label for="Password">Password:</label></td>
+                    <td><input type="password" class="set" id="Password" name="Password"></td>
+                </tr>
+
+                <tr>
+                  <td><label for="Password">Re_Password:</label></td>
+                  <td><input type="password" class="set" id="Password" name="Password"></td>
+              </tr>
+                <tr>
+                    <td><label for="Address">Address:</label></td>
+                    <td><input type="text" class="set" id="Address" name="Address"></td>
+                </tr>
+                <tr>
+                    <td><label for="Age">Age:</label></td>
+                    <td><input type="number" class="set" id="Age" name="Age"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender:</label></td>
+                    <td>
+                        <select id="gender" name="gender">
+                            <option value="male" class="set">Male</option>
+                            <option value="female" class="set">Female</option>
+                            <option value="other" class="set">other</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <br><button type="submit">Save</button>
+        </form>
+    </div>
+</body>
+</html>
